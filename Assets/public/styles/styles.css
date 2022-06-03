@@ -1,1 +1,60 @@
+html,
+body {
+  height: 100%;
+}
 
+.save-note {
+  display: none;
+}
+
+.icons i {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.note-textarea {
+  resize: none;
+  height: calc(100% - 50px);
+  padding-top: 15px;
+}
+
+.note-title {
+  height: 50px;
+  margin-top: 13px;
+  font-size: 3rem;
+}
+
+.note-title:read-only,
+.note-textarea:read-only {
+  color: grey;
+}
+
+.list-container .card {
+  height: calc(100vh - 70px);
+  border-bottom: none;
+}
+
+.list-container {
+  padding-left: 0;
+}
+
+.list-container .list-group,
+.list-container .list-group-item:first-child,
+.list-container .card {
+  border-top: none;
+}
+
+.list-item-title {
+  display: inline-block;
+  width: 75%;
+}
+
+.list-container i {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.list-container .list-group-item {
+  padding: 20px;
+  cursor: pointer;
+}
